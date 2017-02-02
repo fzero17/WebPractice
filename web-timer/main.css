@@ -1,0 +1,26 @@
+body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    color: #fff;
+    font-size: 20em;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction:row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider{
+    width:120px;
+}
+
+#now{
+    /*flex-shrink: 1;*/
+}
